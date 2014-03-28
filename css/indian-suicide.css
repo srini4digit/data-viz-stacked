@@ -1,0 +1,115 @@
+@font-face {
+      font-family: sertigregular;
+      src: url("css/Sertig.otf") format("opentype");
+      }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1500px;
+  }
+}
+
+#divSvg {
+/*	border : solid thin grey; */
+	height: 800px;
+	padding: 10px;
+}
+
+#spnInfo {
+	/* display: inline; */
+	padding: 10px;
+	width: 300px;
+	min-width: 500px;
+	margin-bottom: 5px;
+}
+
+#divSvgControl {
+/*	border : solid thin green; */
+	height: 800px;
+	padding: 10px;
+	text-align: left;
+}
+
+.svgHolder {
+	width: 1030px;
+	height: 750px;
+	/* margin-left: 50px; */
+}
+
+svg {
+  width: 1030px;
+  height: 750px;
+  /* border: solid 1px #ccc; */
+  font: 10px sans-serif;
+  shape-rendering: crispEdges;
+}
+
+.cause:hover {
+	cursor: pointer;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke-width : 1.5px;
+  stroke: lightgrey;
+  shape-rendering: crispEdges;
+}
+
+.x.axis line,.y.axis line {
+			  stroke: lightgrey;
+			}
+.x.axis text {
+	cursor: pointer;
+}
+
+#spnInfo span {
+	margin: 5px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+#divYearSelection {
+	margin-top: 50px;
+}
+
+#tblLegend tr td:hover{
+	cursor: pointer;
+}
+
+#tblLegend tr td.active {
+	font-weight: bolder;
+	border : thin solid teal;
+}
+
+.btn-group {
+	margin-bottom: 20px;
+}
+
+a.controls {
+	border : thin solid teal;
+	border-radius: 3px;
+	padding: 5px 15px ;
+	text-decoration: none;
+	font-weight: bolder;
+	font-style: 14px;
+	color : teal;
+	margin: 0px;
+}
+
+a.controls:hover, a.controls.active {
+	color: white;
+	background-color : teal; 
+	opacity: 0.75;
+}
+
+a.yearSelection.controls {
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+
+.fa {
+	margin: 2px;
+}
